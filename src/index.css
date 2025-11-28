@@ -1,0 +1,26 @@
+:root {
+  --bg-light: #f9fafb;
+  --text-light: #1f2937;
+  --bg-dark: #111827;
+  --text-dark: #f9fafb;
+}
+
+html.light {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+html.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
